@@ -1,0 +1,262 @@
+# lista = [1,2,3,'Daniel','Manuel','Eliel']
+# print (1 in lista)
+# print (3 in lista)
+# print (4 in lista)
+# print (4 not in lista)
+# print ('a'not in lista)
+# print ('b'not in lista)
+
+
+
+
+
+# str = ('dvd da xuxa')
+# print(str[::-1])
+
+# x = 5
+# y = x
+# z = 5 
+
+# print (x is z )
+# print (y is not z)
+
+
+
+# lista_a = [1,2,3]
+# lista_b = lista_a
+# lista_c = [1,2,3]
+
+# print (lista_a is lista_b)
+# print (lista_a is not lista_c)
+
+
+# Lista = []
+# def menu ():
+#     print("Escolha dentre as opçoes a que deseja!")
+#     print("Digite 1 para adicionar um aluno ")
+#     print("Digite 2 para renover um aluno ")
+#     print("Digite 3 para ver a lista de alunos inseridos ")
+#     print("Digite 4 para vizualizar a quantidade de alunos inseridos ")
+#     print("Digite 5 para sair das opçoes ")
+
+# while True:
+#     menu()
+#     opçao = int(input("Digite a opção desejada: "))
+
+#     if opçao == 1:
+#         adicionar_aluno = input("Digite o nome do aluno que deseja inserir: ")
+#         Lista.append(adicionar_aluno)
+#     elif opçao == 2:
+#         remover_aluno = input ("Digite o nome do aluno que deseja remover:")
+#         if remover_aluno in Lista:
+#             Lista.remove(remover_aluno)
+#             print ("Nome Removido com sucesso!")
+#         else:
+#             print ("Nome do aluno não encontrado no sistema!")
+    
+#     elif opçao == 3:
+#         if (len(Lista)) != 0:
+#             print ("Alunos que estao inseridos na lista sao: ")
+#             print (Lista)
+#         else:
+#             print("Nenhum aluno inserido na lista")
+    
+#     elif opçao == 4:
+#         print ("quantidade de alunos inseridos:")
+#         print(len(Lista))
+
+    
+#     else:
+#         print ("Programa terminado com sucesso!")
+
+
+
+# lista1 = ["banana","maça","couve"]
+# lista2 = ["abacaxi","uva","salsa"]
+# lista3 = lista1 [:] + lista2 [:]
+
+# print (lista3)
+
+# lista1 = ["banana","maça","couve"]
+# lista2 = ["abacaxi","uva","maça"]
+# lista3 = lista1 [:] + lista2 [:]
+
+
+# lista_final = list(set(lista3))
+# print (lista_final)
+
+# abc = ['a','b','c']
+
+# del abc [1]
+# print (abc)
+
+# del abc [0]
+# print (abc)
+
+# numeros = list(range(101))
+# print(numeros)
+
+# del numeros[1:99]
+# print(numeros)
+
+
+# ultimo = 10
+# fila = list(range(1, ultimo+1))
+
+# while True:
+#     print (f'\nExistem {len(fila)} clientes na lista.')
+#     print(f'fila atual: {fila}')
+#     print('Digite F para adicionar um cliente ao fim da fila.')
+#     print('Digite A para realizar o atendimento ou digite S para sair.')
+#     operação = input("operação (F, A ou S): ").upper
+#     if operação == 'A':
+#         if len(fila) > 0:
+#             atendido = fila.pop(0)
+#             print(f'Cliente {atendido} atendido.')
+#         else:
+#             print('Fila vazia! Ninguem para atender.')
+#     elif operação == 'F':
+#         ultimo += 1
+#         fila.append(ultimo)
+#     elif operação == 'S':
+#         print("Atendimento encerrado")
+#         break
+
+#     else:
+#         print("Operação Invalida! Digite apenas, F, A ou S.")
+
+# prato = 5
+# pilha = list(range(1, prato +1))
+
+# while True:
+#     print(f'\n Existen {len(pilha)} pratos na pilha.')
+#     print(f'Pilha atual: {pilha}')
+#     print(f' Digite E para empilhar um novo prato')
+#     print(f'Digite D para desempilhar ou S para sair ')
+#     operação = input("Operação (E,D ou S): ")
+
+#     if operação == "D":
+#         if len(pilha) > 0:
+#             lavado = pilha.pop (-1)
+#             print(f' Prato {lavado} lavado')
+#         else:
+#             print("Pilha vazia, nada para lavar")
+#     elif operação == 'E':
+#         prato +=1
+#         pilha.append(prato)
+#     elif operação == 'S':
+#         break
+#     else:
+#         print("Operação invalida! Digite apensa E, D ou S!")
+
+
+# L = [15,7,27,39]
+# p = int(input("Digite o valor a procurar:"))
+# achou = False
+# x = 0
+
+# while x < len(L):
+#     if L[x] == p:
+#         achou = True
+#         break
+#     x += 1
+# if achou:
+#     print(f"{p} achado na posição {x}")
+# else:
+#     print(f"{p} nao encontrado!")
+
+# def verificar_parenteses ():
+#     expressao = input(" Digite uma expressao com parenteses")
+#     pilha=[]
+
+#     for simbolo in expressao:
+#         if simbolo == '(':
+#             pilha.append(simbolo)
+#         elif simbolo == ')':
+#             if not pilha:
+#                 return False
+#             pilha.pop()
+#         return not pilha
+# if verificar_parenteses():
+#     print("A expressao está correta.")
+# else:
+#     print("A expressao está incorreta")
+la atual: {fila}')
+#     print('Digite F para adicionar um cliente ao fim da fila.')
+#     print('Digite A para realizar o atendimento ou digite S para sair.')
+#     operação = input("operação (F, A ou S): ").upper
+#     x = 0
+#     sair = False
+#     while x < len(operação):
+#         if operação [x] == 'A':
+#             if len(fila) > 0:
+#              atendido = fila.pop(0)
+#              print(f'Cliente {atendido} atendido.')
+#             else:
+#              print('Fila vazia! Ninguem para atender.')
+#         elif operação [x] == 'F':
+#             ultimo += 1
+#             fila.append(ultimo)
+#         elif operação [x] == 'S':
+#             sair = True
+#             break
+
+#         else:
+#             print(f"Operação Invalida: {operação [x]} na posição {x}! Digite apenas F, A ou S! ")
+    
+#         x = x+1
+#     if sair:
+#         break
+# print(fila)
+
+# 
+
+# l = [8,9,15]
+# for e in l:
+#     print(e)
+
+# for i in range(0,10):
+#     print(i+1)
+# print("Fim")
+
+# inicio = int(input("início: "))
+# fim = int(input("fim: "))
+# passo = int(input("Passos: "))
+
+# for i in range(inicio,fim+1,passo):
+#     print(i)
+# print("fim")
+
+# from time import sleep
+# for i in range (10, -1,-1):
+#     print(i)
+#     sleep(i)
+# print("Apitou,Começou!!!")
+
+# tupla = ("Um")*3
+# print(type(tupla))
+
+# tupla = ("Um",)
+# print(type(tupla))
+
+# cores = ("Preto", "Roxo","Vermelho","Branco", "Azul")
+
+# print(cores[0])
+# print(cores[-1])
+# print(cores[1:])
+# print (cores.index("Azul"))
+# print (cores.count("Azul"))
+# print(len(cores))
+
+# pessoa1 ={"Nome": "Vinicio","idade": "35 anos"}
+
+
+
+# verduras = {"Alface": 7.99, "Batata": 3.99, "Tomate": 17.99,"Feijao": 5.99}
+# print("o valor do tomate é R$ {Verduras[tomate]}")
+# ultimo = 10
+# fila = list(range(1, ultimo+1))
+
+# while True:
+#     print (f'\nExistem {len(fila)} clientes na lista.')
+#     print(f'fi
